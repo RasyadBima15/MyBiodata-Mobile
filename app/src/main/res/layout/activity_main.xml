@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:text="Welcome to This Page!!!"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="@id/textView"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_weight="1"
+            android:contentDescription="foto_rasy"
+            android:scaleType="fitCenter"
+            android:src="@drawable/foto_rasy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/layout_profile"
+        app:layout_constraintStart_toStartOf="@id/layout_profile">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Rasyad Bimasatya"
+                android:textSize="19sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="H071221024"
+                android:textSize="19sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="Sistem Informasi'22"
+            android:textSize="28sp"/>
+        <Button
+            android:id="@+id/btn_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="See Details About My Biodata"
+            android:background="#112070"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Biodata"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <!--        biodata content-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Name : Rasyad Bimasatya"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Date of Birth : 15 February 2004"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Age : 20"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gender : Male"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Phone Number : +628871293167"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Email Adress : rasyadbimasatya04@gmail.com"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Hobies : \n- Coding and Music\n- Playing Chess\n- Watching Anime"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Education : \n- SD Negeri Panaikang 3 Makassar \n- SMP Negeri 19 Makassar \n- SMA Negeri 5 Makassar\n-  Information Systems Student of Hasanuddin University (Now)"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Work Experience : \n- Web Developer at Polda Sulawesi Selatan (Freelance) \n-
+Laboratory Assistant of Programming Algorithm Course at Hasanuddin University"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Awards \n- 3rd Place of Web Development Competition Issued by IT Festival Polsri 2023"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="2dp"
+                android:layout_marginBottom="50dp"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
