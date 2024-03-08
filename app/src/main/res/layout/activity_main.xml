@@ -76,8 +76,26 @@
             android:layout_marginTop="15dp"
             android:textSize="16sp"
             android:textColor="@color/white"
-            android:text="See Details About My Biodata"
+            android:text="Biodata"
             android:background="#112070"/>
+        <Button
+            android:id="@+id/btn_socmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Social Media"
+            android:background="#B82424"/>
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Contact Me"
+            android:background="#116712"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
