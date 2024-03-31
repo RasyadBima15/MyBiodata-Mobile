@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:background="@drawable/header_bg"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/foto_rasy"
+            android:scaleType="fitCenter"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="Rasyad Bimasatya"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H071221024"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="18sp"
+            android:textColor="#0B676B"
+            android:drawableStart="@drawable/homepage"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biodata"
+            android:textSize="18sp"
+            android:textColor="#0B676B"
+            android:drawableStart="@drawable/biodata"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btn_sosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Media"
+            android:textSize="18sp"
+            android:textColor="#0B676B"
+            android:drawableStart="@drawable/social_media"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cyan"/>
+    <LinearLayout
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/contact"
+            android:drawablePadding="8dp"
+            android:text="Call Me"
+            android:textColor="#0B676B"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
